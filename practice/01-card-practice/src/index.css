@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  /* color: #fff; */
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.parent {
+  min-height: 100vh;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 450px;
+  width: 370px;
+  background-color: #fff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin: 20px;
+  border: 1px solid #b8b8b8;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.top .status {
+  background-color: #08e41a;
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 15px;
+}
+
+.center h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.center .p1 {
+  font-size: 12px;
+  font-weight: 400;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.center .p2 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #0000FF;
+  margin-bottom: 5px;
+}
+
+.pills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.pills span {
+  border: 1px solid #b8b8b8;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+
+.pills .pill-color {
+  background-color: #499df5;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.bottom {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: gray;
+}
+
+.bottom p {
+  margin-bottom: 10px;
+  padding: 0px 15px;
+}
+
+.bottom .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  padding: 14px 0px;
+  margin-top: 27px;
+  border-radius: 2px;
+  cursor: pointer;
+  border-top: 1px solid #b8b8b8;
+  font-size: 15px;
+}
+
+.bottom .btn:hover {
+  background-color: #499df5;
+  color: white;
+}

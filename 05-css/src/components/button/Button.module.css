@@ -1,0 +1,8 @@
+.btn {
+    background-color: aqua;
+    color: black;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 5px;
+}

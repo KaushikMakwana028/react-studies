@@ -94,7 +94,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin-bottom: 5px;
+  margin: 5px 0px;
 }
 
 .pills span {
@@ -130,11 +130,12 @@ body {
   text-align: center;
   color: black;
   padding: 14px 0px;
-  margin-top: 27px;
+  margin-top: 22px;
   border-radius: 2px;
   cursor: pointer;
   border-top: 1px solid #b8b8b8;
   font-size: 15px;
+  font-weight: 600;
 }
 
 .bottom .btn:hover {
